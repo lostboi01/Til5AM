@@ -1,0 +1,131 @@
+
+
+/*dash images*/
+
+img {
+	border:none;
+	margin:0px;
+	padding:0px;
+}
+
+
+.d_B {
+	float:left;
+	width:114px;
+	height:117px;
+	background:url(../images/dashboard/bg-dash.png) no-repeat top center;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:550;
+	color:#444444;
+	text-decoration:none;
+}
+
+.d_B:hover{
+	
+	background:url(../images/dashboard/bg-dash2.png) no-repeat top center;
+	text-decoration:none;
+}
+
+
+
+
+
+#dashboard span {
+    color: #828282;
+    cursor: pointer;
+   	font-size:11px;
+	font-family: Arial,Helvetica,sans-serif;
+     white-space: normal;
+     font-weight:500;
+     line-height:16px;
+     height:70px;
+     margin:0px;
+     padding:0px;
+   
+}
+
+#dashboard span a{
+    color: #828282;
+    cursor: pointer;
+   font-size:11px;
+	font-family: Arial,Helvetica,sans-serif;
+    text-align: left;
+    white-space: normal;
+     font-weight:500;
+     padding:0px;
+     margin:0px;
+     line-height:16px;
+   
+}
+
+#dashboard span a:hover{
+    color: #000;
+    cursor: pointer;
+   font-size:11px;
+	font-family: Arial,Helvetica,sans-serif;
+    text-align: center;
+    white-space: normal;
+     font-weight:500;
+     padding:0px;
+     margin:0px;
+        line-height:16px;
+}
+
+
+
+ #dashboard {
+	float:left;	
+	width:114px;
+	padding-top:8px;
+	height:117px;
+	
+	color: #828282;
+    cursor: pointer;
+  	font-family: Arial,Helvetica,sans-serif;
+    text-align: center;
+    white-space: normal;
+     font-weight:500;
+     background:url(../images/dashboard/bg-dash.png) no-repeat top center;
+}
+
+#dashboard:hover {
+	 float:left;
+	width:114px;
+	padding-top:8px;
+	height:117px;
+	cursor: pointer;
+	background:url(../images/dashboard/bg-dash2.png) no-repeat top center;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:800;
+	color:#444444;
+	vertical-align:middle;
+	
+  }
+
+.clear {
+	clear:both;
+}
+
+#dashDiv {
+	/*width:700px;*/
+	height:auto;
+	/* margin-left: 200px;*/
+	
+	
+	  
+	
+}
+.box1 {
+	padding:15px;
+	width:auto;
+	height:auto;
+}
+
+.linkIcon {
+	width:120px;
+	height:120px;
+	float:left;
+	margin-right:15px;
+}

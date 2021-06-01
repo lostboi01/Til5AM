@@ -1,0 +1,250 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+		margin:0px auto;
+		 color: #616161;
+    font-size: 11px;
+    font-weight: bold;
+    }
+
+#wrapperMid{
+		width:100%;
+		height:auto;
+		margin:0px auto;
+		background: #fff;
+	}
+
+.box_header {
+   	background:#CDCDCD url(../images/viewaccount/boxheader.gif) repeat-x scroll top center;
+    border:1px solid #9D9D9D;
+ 	height:34px;
+}
+
+.tittleheader{
+	   color: #333333;
+    font-family: Arial,Verdana;
+    font-size: 125%;
+	padding-top:6px;
+	padding-left:10px;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #FFFFFF;
+    float:left;
+   }
+.clear{
+	clear:both;
+}
+/*#extensibleDIV_left{
+		width:22%;
+		height:auto; padding:0px; padding:0px;
+		float:left;
+		margin-right:5px;
+		margin-left:5px;
+		}
+*/
+
+#extensibleDIV_leftmain{
+		width:26%; 
+		height:auto;
+		 padding:0px;
+		  padding:0px;
+		float:left;
+		margin-right:5px;
+		margin-left:5px;
+	}
+
+#extensibleDIV_left{
+		height:auto; padding:0px; padding:0px;
+	}
+
+
+#extensibleDIV_left p{
+	margin:0px; padding:0px;
+}
+
+/*#extensibleDIV{
+		width:70%; height:auto; padding:0px; padding:0px;
+		float:left;
+	}
+	*/
+	
+	#extensibleDIV_main{
+		width:70%; 
+		height:auto; 
+		padding:0px;
+		padding:0px;
+		float:left;
+	}	
+
+.extensibleDIV{
+		height:auto; padding:0px; padding:0px;
+	}
+	
+	
+#extensibleDIV label{
+    color: #616161;
+    font-size: 11px;
+    font-weight: bold;
+  }
+	
+	
+	
+#extensibleDIV table
+{
+border-collapse:collapse; width:100%; height:100%;
+}
+
+#extensibleDIV table,th, td
+{
+border: 0px solid black;
+}
+
+	
+	
+/*table cornner top*/	
+	
+.tbl_left_top_crn{
+		width:29px;
+		height:46px;
+		background:url(../images/viewaccount/top_left_crn.png) no-repeat top left;
+		 
+	}	
+
+
+
+.tbl_left_top_mid{
+		width:auto;
+		height:46px;
+		background:url(../images/viewaccount/top_mid_top.png) repeat-x top left;
+		vertical-align: middle;
+}
+
+
+.headingLabel{
+	 font-family: Arial,Verdana;
+    font-size: 13px! important;
+    font-weight: bold! important;
+   float:left;
+    line-height: 35px! important;
+}
+
+
+.subHeadingLabel{
+    color: #616161;
+    float: left;
+    font-size: 11px;
+    font-weight: bold;
+    width: 150px;
+}
+
+
+.subData{
+	 border: 0 none;
+    font-family: Arial,Helvetica,sans-serif;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    width:200px;
+    /* height:130px;*/
+    height:183px; 
+     overflow-y:auto;
+      overflow-x:hidden;
+       white-space:nowrap;
+       font-size: 11px;
+       line-height:18px;
+}
+
+
+.texttittleMid{
+		font-family: Arial,Verdana;
+	    font-size:100%;
+	    font-weight: bold;
+	    }
+	
+.tbl_right_top_crn{
+		width:29px;
+		height:46px;
+		background:url(../images/viewaccount/top_right_crn.png) no-repeat top left;
+	}	
+
+/*table cornner center*/	
+
+	
+.tbl_left_side{
+		width:29px;
+		height:100%;
+		background:url(../images/viewaccount/left_mid_side.png) repeat-y top;
+		font-family:Arial, Helvetica, sans-serif;
+		text-align:left;
+	}	
+
+
+.tbl_mid_ctn{
+		width:auto;
+		height:181px;
+		background:url(../images/viewaccount/white_space_mid.png) repeat;
+		vertical-align: top; 
+	}	
+	
+.tbl_right_side{
+		width:29px;
+		height:100%;
+		background:url(../images/viewaccount/right_mid_side.png) repeat-y top;
+	}	
+
+/*table cornner bottom*/	
+	
+.tbl_left_btm_crn{
+		width:29px;
+		height:26px;
+		background:url(../images/viewaccount/bottom_left_crn.png) no-repeat top left;
+	}	
+
+
+.tbl_left_btm_mid{
+		width:auto;
+		height:14px;
+		background:url(../images/viewaccount/bottom_mid_btm.png) repeat-x top left;
+	}	
+.tbl_right_btm_crn{
+		width:29px;
+		height:26px;
+		background:url(../images/viewaccount/bottom_right_crn.png) no-repeat top left;
+	}	
+
+
+/* corner box css end */
+
+ .ListOverFlow{
+ 	/*height: 180px;*/
+ 	height:183px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    white-space: nowrap;
+    width: 200px;
+    font:11px arial;
+    line-height:18px;
+    margin-bottom:10px;
+    margin-top:10px;
+   }
+   
+   
+   .tbl_mid_ctn .row .Field_Text  {
+width:400px! important;
+font-weight: normal! important;
+
+}
+
+.tbl_mid_ctn .row  label{
+width:150px! important;
+float: left! important;
+font-size: 11px! important;
+color: #616161! important;
+font-weight: bold! important;
+
+}
+
+.tbl_mid_ctn .row {
+height:25px;
+display: block;
+
+}
